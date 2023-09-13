@@ -66,6 +66,7 @@ inputs:
     value_options:
     - install
     - update
+    - arch -x86_64 pod install
 - source_root_path: $BITRISE_SOURCE_DIR
   opts:
     title: Workdir
